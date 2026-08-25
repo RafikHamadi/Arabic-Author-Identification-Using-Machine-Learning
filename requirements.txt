@@ -1,0 +1,14 @@
+# Base (obligatoire)
+flask>=2.3.0
+torch>=2.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Embeddings (optionnel - calcul a la volee AraBERT/AraELECTRA)
+# transformers>=4.30.0
+# arabert>=1.0.1
+
+# Transcription (optionnel - Whisper)
+# openai-whisper>=20231117
+# (necessite aussi ffmpeg installe sur le systeme)
