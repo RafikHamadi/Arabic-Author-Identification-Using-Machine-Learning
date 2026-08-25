@@ -1,4 +1,4 @@
-# PFE V2 — Reconnaissance d'auteurs arabes
+# Reconnaissance d'auteurs arabes
 
 Plateforme web (Flask) de classification de textes arabes par auteur.
 
@@ -29,7 +29,7 @@ Ton corpus nettoyé (16 auteurs × 10 textes) est déjà dans `corpus_nettoye/`.
 ## 📁 Structure
 
 ```
-app_pfe_v2/
+app_pfe/
 ├── app.py
 ├── requirements.txt
 ├── corpus_brut/          ← tes 16 dossiers Auteur ICI
@@ -58,7 +58,7 @@ python app.py
 
 Dans Spyder : Set working directory → `app_pfe_v2/`, Restart kernel, puis F5.
 
-## 📊 Hyperparamètres de référence (PFE)
+## 📊 Hyperparamètres de référence 
 
 | Méthode | lr | batch | epochs | autres |
 |---------|-----|-------|--------|--------|
@@ -66,4 +66,4 @@ Dans Spyder : Set working directory → `app_pfe_v2/`, Restart kernel, puis F5.
 | TF-IDF CNN | 0.0003 | 16 | 200 | top_n_mots 150, dropout 0.5 |
 
 ## 👤 Auteur
-PFE 2026 — Encadrante : M<sup>me</sup> Bakir
+HAMADI Rafik
